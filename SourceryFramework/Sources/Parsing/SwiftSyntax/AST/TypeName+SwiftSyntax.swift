@@ -193,7 +193,7 @@ extension TypeName {
             if specifier.tokenKind == .inoutKeyword {
                 isInOut = true
             } else {
-                assertionFailure("Unhandled specifier")
+                // TODO: Add support for other specifiers besides inout
             }
         }
         
